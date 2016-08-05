@@ -53,7 +53,9 @@ GUI.prototype.removeLoginField = function() {
 	$('#' + this.greeter.userController.currentUser.name + ' > p').html('');
 }
 GUI.prototype.addToList = function(user) {
+
 	$('<article class="user" id="' + user.name + '">' +
+	'<div class="imgcontainer ' + Config.avatar + '"><img id="image_' + user.name + '" src="" /></div>' +
 	'<label>' + user.display_name + '</label>' +
 	'<label class="subname">' + user.name + '</label>' +
 	'<p></p>' +

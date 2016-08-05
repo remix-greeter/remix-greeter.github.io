@@ -107,9 +107,9 @@ input[type="checkbox"] {
 }
 .userList .user {
 	height: 110px;
-	opacity: 0.25;
+	opacity: 0.5;
 	position: relative;
-	transition: margin 0.3s linear, opacity 1s ease-in-out, background-color 0.3s ease-in-out, padding 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
+	transition: margin 0.3s ease-in-out, opacity 1s ease-in-out, background-color 0.3s ease-in-out, padding 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
 	margin-bottom: 3px;
 	cursor: pointer;
 }
@@ -121,20 +121,35 @@ input[type="checkbox"] {
 .userList .bright {
 	opacity: 1.0;
 }
-.userList .dim {
-	opacity: 0.5;
-}
 .userList .user label {cursor: pointer;}
 .userList .active {
-	margin: 0px 3px 50px 12px;
+	margin: 50px 3px 50px 12px;
 	padding: 6px;
 	background-color: rgba(55, 59, 73, 0.8);
 	border-radius: 3px;
 	text-shadow: none;
 }
-
+.hide {
+	display: none;
+}
+.show {
+	height: 110px;
+	width: 110px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	float: left;
+}
+.userList .user img {
+	width: 96px;
+	height: 96px;
+	border-radius: 48px;
+	float: left;
+	margin-right: 10px;
+}
 .userList .user p {
 	position: relative;
+	display: flex;
 }
 
 #loginbutton {
@@ -207,4 +222,7 @@ body.highcontrast #manager {
 }
 body.highcontrast #manager span {
 	color: #ffffff !important;
+}
+body.highcontrast .userList .user img {
+	box-shadow: 2px 2px 0 black, -2px -2px 0 black, 0 2px 0 black, 2px 0 0 black, 0 -2px 0 black, -2px 0 0 black;
 }

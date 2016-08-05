@@ -31,7 +31,7 @@ if (typeof lightdm == 'undefined') {
 
 	lightdm.users= [
 		{ name: "the5heepdev", real_name:"Superman", display_name: "Ossian Mapes", image :"", language: "en_US", layout: null, session: "gnome", logged_in: true, is_authenticated: true },
-		{ name: "fossfreedom", real_name:"Batman", display_name: "David Mohammed", image :"/home/brokenImage.gif", language: "en_US", layout: null, session: null, logged_in: false},
+		{ name: "fossfreedom", real_name:"Batman", display_name: "David Mohammed", image :"/home/baseball.png", language: "en_US", layout: null, session: null, logged_in: false},
 		{ name: "HEXCube", real_name:"Spiderman", display_name: "HEXcube", image :"", language: "en_US", layout: null, session: null, logged_in: true},
 		{ name: "niyasc", real_name:"Spiderman", display_name: "Niyas C", image :"", language: "en_US", layout: null, session: null, logged_in: true},
 		{ name: "spottech", real_name:"Spiderman", display_name: "mikl", image :"", language: "en_US", layout: null, session: "ubuntu", logged_in: true},
