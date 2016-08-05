@@ -10,6 +10,7 @@
 
 body {
 	background: url('background.jpg') no-repeat black;
+	background-attachment: fixed !important;
 	background-size: cover;
 	font-family:  Ubuntu, sans-serif;
 	color: white;
@@ -52,7 +53,7 @@ input[type="checkbox"] {
 
 .titlebar {
 	background: rgba(55, 59, 73, 0.8);
-	position: absolute;
+	position: fixed;
 	top: 0;
 	left: 0;
 	padding: 8px;
