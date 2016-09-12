@@ -1,7 +1,7 @@
 [theme]
-name=BudgieRemix
+name=remix-greeter
 description=Budgie-Remix Greeter for lightdm-WebKit
 engine=lightdm-webkit-greeter
 url=index.html
-session=gnome
+session=budgie-desktop
 
